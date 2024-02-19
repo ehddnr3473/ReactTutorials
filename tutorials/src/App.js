@@ -1,12 +1,17 @@
 import './App.css';
 import Basic from './Basic';
 import List from './List';
+import {SharedButtons, NotSharedButtons} from './UpdatingScreen';
 
 function App() {
   return (
     <>
-      <Basic></Basic>
-      <List></List>
+      <Basic />
+      <List />
+      <NotSharedButtons />
+      <NotSharedButtons />
+      <br/>
+      <SharedButtons />
     </>
   );
 }
