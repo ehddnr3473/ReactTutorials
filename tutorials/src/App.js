@@ -1,9 +1,13 @@
 import './App.css';
 import Basic from './Basic';
+import List from './List';
 
 function App() {
   return (
-    <Basic></Basic>
+    <>
+      <Basic></Basic>
+      <List></List>
+    </>
   );
 }
 
