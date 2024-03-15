@@ -2,6 +2,7 @@ import './App.css';
 import Basic from './Basic';
 import List from './List';
 import {SharedButtons, NotSharedButtons} from './UpdatingScreen';
+import Profile from './contextTutorial/Profile';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <NotSharedButtons />
       <br/>
       <SharedButtons />
+      <br/>
+      <Profile />
     </>
   );
 }
